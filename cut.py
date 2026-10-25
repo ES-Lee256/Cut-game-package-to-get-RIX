@@ -59,6 +59,7 @@ def extract_blocks(input_file):
 
     if not blocks:
         print("未找到任何符合条件的数据块。")
+        print("No data blocks matching the criteria were found.")
         return
 
     base_name = os.path.splitext(os.path.basename(input_file))[0]
@@ -68,13 +69,14 @@ def extract_blocks(input_file):
         with open(output_name, 'wb') as out:
             out.write(block)
 
-        print(f"块 {idx}: {output_name}")
-        print(f"  偏移: {start} -> {end}, 长度: {len(block)} 字节")
+        print(f"块(block) {idx}: {output_name}")
+        print(f"  偏移(offset): {start} -> {end}, 长度(length): {len(block)} 字节(byte)")
         preview = block[:16].hex().upper()
-        print(f"  头部预览: {preview} ...")
+        print(f"  头部预览(head preview): {preview} ...")
         print()
 
     print(f"共提取 {len(blocks)} 个文件。")
+    print(f"A total of {len(blocks)} files were extracted.")
 
 def main():
     if len(sys.argv) != 2:
@@ -87,9 +89,11 @@ def main():
         extract_blocks(input_file)
     except FileNotFoundError:
         print(f"错误: 文件 '{input_file}' 不存在")
+        print(f"Error: File '{input_file}' is not exist.")
         sys.exit(1)
     except Exception as e:
         print(f"处理时发生错误: {e}")
+        print(f"An error occurred while processing: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
