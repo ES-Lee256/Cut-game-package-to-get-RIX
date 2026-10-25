@@ -1,4 +1,6 @@
 [简体中文](README.md)|[繁體中文](README_zh-tw.md)|English
+
+You can directly click to download `cut.py` and use it; it requires you to have `Python 3.6` or a later version.
 # RIX Resource Block Extraction Tool
 
 This project provides a small utility for extracting `.rix` files from game package binaries by identifying specific data blocks embedded in the package.
