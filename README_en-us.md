@@ -47,7 +47,7 @@ game.bin
 game1.rix
 game2.rix
 game3.rix
-
+```
 ---
 
 ## 3. Usage
@@ -183,4 +183,3 @@ It is intended as a focused extraction tool for older game packages, especially 
 ## 10. License
 
 This project is intended for personal, research, and archival use in the context of reverse engineering and file recovery from game package data. Please ensure compliance with applicable copyright and distribution laws for the games and media involved.
-```
