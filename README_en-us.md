@@ -114,8 +114,8 @@ This tool is intended for extracting music-related `.rix` resources from the fol
 - Star Volunteer
 - Zhengzong Taiwan 16 Mahjong
 - Zhengzong Taiwan 16 Mahjong 2
-- Monopoly 2
-- Monopoly 3
+- ~~Richman 2~~
+- Richman 3
 - Fighting King
 - L-MAN
 - Spring and Autumn Warring States 2
