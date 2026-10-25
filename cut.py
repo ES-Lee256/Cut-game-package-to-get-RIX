@@ -78,7 +78,8 @@ def extract_blocks(input_file):
 
 def main():
     if len(sys.argv) != 2:
-        print("用法: python extract_rix.py <输入文件>")
+        print("用法: python cut.py <文件名>")
+        print("Usage: python cut.py <filename>")
         sys.exit(1)
 
     input_file = sys.argv[1]
