@@ -47,6 +47,7 @@ game.bin
 game1.rix
 game2.rix
 game3.rix
+```
 
 ---
 
