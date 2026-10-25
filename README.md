@@ -1,3 +1,4 @@
+简体中文|[繁體中文](README_zh-tw.md)|[English](README_en-us.md)
 # RIX 资源块提取工具
 
 这是一个用于从游戏资源包中“特异性提取 `.rix` 文件”的小工具。  
