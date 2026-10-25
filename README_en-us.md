@@ -102,8 +102,10 @@ This helps verify that the extracted data is structurally valid and corresponds 
 
 This tool is intended for extracting music-related `.rix` resources from the following games and packages:
 
-- Xuan-Yuan Sword 2
-- Xuan-Yuan Sword: The Cloud Dream of the Nine
+- ~~Xuan-Yuan Sword 2~~
+
+  (Strikethrough here means the statement is invalid: This game does not have a matching package; the RIX files are placed loose externally, same for the rest.)
+- ~~XuanYuan Sword: The Dance of the Maple~~
 - Sword and Fairy (DOS)
 - Magic Sword: Heroic Fantasy 2
 - Yao Mo Dao
