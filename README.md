@@ -1,4 +1,6 @@
 简体中文|[繁體中文](README_zh-tw.md)|[English](README_en-us.md)
+
+直接点击下载 `cut.py` 使用即可，要求您有 `Python3.6` 及以上版本。
 # RIX 资源块提取工具
 
 这是一个用于从游戏资源包中“特异性提取 `.rix` 文件”的小工具。  
