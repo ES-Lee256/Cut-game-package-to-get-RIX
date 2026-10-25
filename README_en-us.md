@@ -1,3 +1,4 @@
+[简体中文](README.md)|[繁體中文](README_zh-tw.md)|English
 # RIX Resource Block Extraction Tool
 
 This project provides a small utility for extracting `.rix` files from game package binaries by identifying specific data blocks embedded in the package.
