@@ -1,3 +1,4 @@
+[简体中文](README.md)|繁體中文|[English](README_en-us.md)
 # RIX 資源區塊擷取工具
 
 這是一個用於從遊戲資源包中「特異性擷取 `.rix` 檔案」的小工具。  
