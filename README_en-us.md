@@ -1,6 +1,9 @@
 [简体中文](README.md)|[繁體中文](README_zh-tw.md)|English
 
 You can directly click to download `cut.py` and use it; it requires you to have `Python 3.6` or a later version.
+
+Alternatively, download and run the executable from `releases`. The instructions below describe how to use the directly downloaded `cut.py`; instructions for the `releases` version are at the end of this document. The `releases` version has a graphical interface, and you can follow the on-screen buttons to use it.
+
 # RIX Resource Block Extraction Tool
 
 This project provides a small utility for extracting `.rix` files from game package binaries by identifying specific data blocks embedded in the package.
@@ -187,3 +190,14 @@ It is intended as a focused extraction tool for older game packages, especially 
 ## 10. License
 
 This project is intended for personal, research, and archival use in the context of reverse engineering and file recovery from game package data. Please ensure compliance with applicable copyright and distribution laws for the games and media involved.
+
+---
+
+## Using the packaged release
+
+The website distributes a packaged Windows application; you do not need to run `cut.py` or install Python separately. Download and extract the release package, then launch the included application:
+
+1. Click “Import file” and choose the game package to scan.
+2. Enter an export folder or click “Browse” to select one. A folder entered here will be created if it does not exist.
+3. Click “Start extraction”. Progress and results appear in the console area at the bottom of the window.
+4. Use the buttons at the lower left to switch between Simplified Chinese, Traditional Chinese, and English. Simplified Chinese is selected on startup.
